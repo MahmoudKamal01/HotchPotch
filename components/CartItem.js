@@ -55,7 +55,7 @@ const CartItem = ({ item, dispatch, cart }) => {
         style={{ minWidth: "50px", cursor: "pointer" }}
       >
         <i
-          className="text-danger"
+          className="fa fa-trash fa-5x text-danger"
           aria-hidden="true"
           style={{ fontSize: "18px" }}
           data-toggle="modal"

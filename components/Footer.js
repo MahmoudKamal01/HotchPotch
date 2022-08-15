@@ -44,7 +44,7 @@ function _footer() {
             <div class="col-xl-4 col-lg-4 mb-50">
               <div class="footer-widget">
                 <div class="footer-logo">
-                  <a href="index.html">
+                  <a href="/">
                     <img src="lgo2.svg" class="img-fluid" alt="logo" />
                   </a>
                 </div>

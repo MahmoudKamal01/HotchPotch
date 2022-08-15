@@ -73,7 +73,7 @@ const CartItem = ({ item, dispatch, cart }) => {
               ],
             })
           }
-        >🗑️</i>
+        ></i>
       </td>
     </tr>
   );

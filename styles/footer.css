@@ -6,6 +6,7 @@ ul {
   background: #1D2124;
   position: relative;
   overflow: hidden;
+  padding-left: 40px;
 }
 .footer-cta {
   border-bottom: 1px solid #373636;

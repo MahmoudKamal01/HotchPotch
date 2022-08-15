@@ -28,26 +28,29 @@ const Filter = ({ state }) => {
 
   return (
     <div className="input-group">
-      <div className="input-group-prepend col-md-2 px-0 mt-2">
+      <div className="input-group-prepend col-md-2 px-0 mt-2 opts">
         <select
-          className="custom-select text-capitalize"
+          className="custom-select text-capitalize slc-box"
           value={category}
           onChange={handleCategory}
         >
-          <option value="all">All Products</option>
+          <option className="option" value="all">
+            All Products
+          </option>
 
           {categories.map((item) => (
-            <option key={item._id} value={item._id}>
+            <option key={item._id} value={item._id} className="option">
               {item.name}
             </option>
           ))}
         </select>
       </div>
 
-      <form autoComplete="off" className="mt-2 col-md-8 px-0">
+      <form autoComplete="off" className="mt-2 col-md-8 px-0 srch-from">
         <input
           type="text"
-          className="form-control"
+          className="form-control srch"
+          placeholder="🔎 Search ..."
           list="title_product"
           value={search.toLowerCase()}
           onChange={(e) => setSearch(e.target.value)}
@@ -56,7 +59,7 @@ const Filter = ({ state }) => {
 
       <div className="input-group-prepend col-md-2 px-0 mt-2">
         <select
-          className="custom-select text-capitalize"
+          className="custom-select text-capitalize slc-box"
           value={sort}
           onChange={handleSort}
         >

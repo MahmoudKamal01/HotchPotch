@@ -50,4 +50,9 @@
     min-height: 700px;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 120px;
+}
+
+.signup-cont{
+    padding-top: 70px;
 }

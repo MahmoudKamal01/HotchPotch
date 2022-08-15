@@ -2,13 +2,20 @@
     background-color: #1D2124;
     color: #FFE11B;
     width: 100% !important;
-    
+    display:flex;
+    align-items: center;
     }
 
+    @media only screen and (max-width: 768px) {
+        .navbar{
+            flex-direction:column;
+      }
+    } 
 .navbar-brand{
     padding: 0;
     margin:0;
 }
+
 .items{
     display: flex;
     flex-wrap:wrap;
@@ -16,12 +23,17 @@
     font-size: 15px;
 }
 
+.col-btn{
+    display: flex;
+    justify-content: center;
+}
+
 .ul-item{
     display: block;
 }
 .navbar-toggler{
     background-color: #FFE11B;
-    color:black
+    color:black;
 }
 
 .navbar-toggler-icon {

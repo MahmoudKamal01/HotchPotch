@@ -138,7 +138,7 @@ function NavBar() {
       </div>
 
       <button
-        className="navbar-toggler"
+        className="navbar-toggler align-center"
         type="button"
         data-toggle="collapse"
         data-target="#navbarNavDropdown"
@@ -148,6 +148,7 @@ function NavBar() {
       >
         <span className="navbar-toggler-icon"></span>
       </button>
+
       <div
         className="collapse navbar-collapse justify-content-end navbar-inverse"
         id="navbarNavDropdown"

@@ -22,7 +22,7 @@ const DetailProduct = (props) => {
         <title>Detail Product</title>
       </Head>
 
-      <div className="col-md-6">
+      <div className="col-md-6 prod1">
         <img
           src={product.images[tab].url}
           alt={product.images[tab].url}
@@ -44,7 +44,7 @@ const DetailProduct = (props) => {
         </div>
       </div>
 
-      <div className="col-md-6 mt-3">
+      <div className="col-md-6 mt-3 prod2">
         <h2 className="text-uppercase">{product.title}</h2>
         <h5 className="text-danger">${product.price}</h5>
 

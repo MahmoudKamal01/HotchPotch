@@ -44,6 +44,11 @@ img{
 ::-webkit-scrollbar-thumb:hover {
   background: #FFE11B; 
 }
+
+i.text-danger{
+  position: relative;
+  right:30px;
+}
 /* ----------- Loading ------------- */
 @import url("./loading.css");
 

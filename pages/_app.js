@@ -5,7 +5,7 @@ import "../styles/navbar.css";
 import "../styles/footer.css";
 import "../styles/404.css";
 import "../styles/home.css";
-import "font-awesome/css/font-awesome.min.css";
+import "../font-awesome/css/font-awesome.min.css";
 
 function MyApp({ Component, pageProps }) {
   return (

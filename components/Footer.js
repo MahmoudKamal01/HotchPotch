@@ -15,7 +15,7 @@ function _footer() {
                 <i class="fas fa-map-marker-alt"></i>
                 <div class="cta-text">
                   <h4>Find us</h4>
-                  <span>1010 Avenue, sw 54321, chandigarh</span>
+                  <span>1010 Shoubra, Cairo, Egypt</span>
                 </div>
               </div>
             </div>

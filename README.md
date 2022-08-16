@@ -1,5 +1,5 @@
 # HotchPotch
-## visit: [here](https://hotchpotch-store.herokuapp.com/)
+## visit: [here](https://hotchpotch-store.herokuapp.com/cart)
 ### To run locally:
 1- replace ``` BASE_URL: "https://hotchpotch-store.herokuapp.com" ``` with ``` BASE_URL: "http://localhost:3000" ``` in next.config file <br>
 2- ```npm install```    (if does not work) try ```npm install --legacy-peer-deps```  <br>

@@ -64,3 +64,14 @@
     box-shadow: none;
     border: none;
 }
+
+.notify-color-error{
+    background-color:crimson;
+}
+.notify-color-suc{
+    background-color:green;
+}
+
+.op{
+    opacity:0.9;
+}
